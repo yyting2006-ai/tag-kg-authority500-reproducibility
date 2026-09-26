@@ -428,7 +428,7 @@ Finally, the ledger records the scope of a claim in plain language. A structural
 
 ### Acknowledgements
 
-The authors used OpenAI Codex (accessed 27 September 2026; available through OpenAI Codex) for language polishing, programming assistance, and routine consistency checks. The authors reviewed all suggestions, verified the numerical claims, source links, data rights, and artifacts, and take responsibility for the final manuscript. This tool is not an author.
+The authors used OpenAI Codex (accessed 27 September 2026; available through OpenAI Codex) for language polishing and programming assistance. The authors reviewed all suggestions, verified the numerical claims, source links, data rights, and artifacts, and take responsibility for the final manuscript. This tool is not an author.
 
 ### Author contributions
 
@@ -456,7 +456,7 @@ Ethical approval was not required. The study uses written example sentences and 
 
 ### AI-use disclosure
 
-OpenAI Codex (accessed 27 September 2026; available through OpenAI Codex) assisted with language polishing, programming assistance, and routine consistency checks. The authors checked all numerical claims, source links, data rights, and artifacts and remain responsible for the content. The tool is not an author.
+OpenAI Codex (accessed 27 September 2026; available through OpenAI Codex) assisted with language polishing and programming assistance. The authors checked all numerical claims, source links, data rights, and artifacts and remain responsible for the content. The tool is not an author.
 
 ## References
 
