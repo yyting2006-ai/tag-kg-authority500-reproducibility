@@ -8,8 +8,8 @@ This directory contains the journal-length extension of the TAG-KG paper, prepar
 - `manuscript.html`: browser-printable article generated from `manuscript.md`.
 - `main.tex`: LaTeX source generated from the same article text.
 - `TAG_KG_journal_extension.pdf`: visually checked article PDF compiled with Cambridge's `CUP-JNL-NLP.cls`.
-- `TAG_KG_NLP_submission_package.zip`: final synchronized submission package.
-- `figures/`: five data-bearing SVG composite figures.
+- `TAG_KG_NLP_submission_package_20260927_official_tex_v3.zip`: internal full archive; use the clean production source package prepared in the local upload bundle.
+- `figures/`: five data-bearing PDF figures with matching editable SVG sources.
 - `figure_alt_text.md`: accessibility descriptions for the five figures.
 - `claim_evidence_ledger.csv`: claim-to-source and claim-to-artifact map.
 - `version_audit.md`: version reconciliation and the resolved CAIT withdrawal disclosure.

@@ -31,7 +31,7 @@ Prepared against the current Cambridge author-information pages read on 2026-09-
 - [x] `main.tex` is generated from the same Markdown source and uses the official `CUP-JNL-NLP.cls` class.
 - [x] `manuscript.html` is generated from the same Markdown source.
 - [x] `TAG_KG_journal_extension.pdf` was rendered from `manuscript.html` and visually inspected at representative pages.
-- [x] PDF text extraction confirms `.844`, `.701`, `.030`, Table 5, Table 10, and 23 pages.
+- [x] PDF text extraction confirms `.844`, `.701`, `.030`, Table 5, Table 10, and 24 pages.
 - [x] Figures are generated from the frozen table values.
 - [x] Figure accessibility descriptions are supplied in `figure_alt_text.md`.
 - [x] The claim-evidence ledger links every headline result to the CAIT full-author PDF and a package artifact.
