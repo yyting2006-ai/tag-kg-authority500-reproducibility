@@ -1,0 +1,242 @@
+{
+  "schema_version": "authority500-data-protocol-v1.0",
+  "data_dir": "E:\\VScode\\CAIT2026_Submission\\reproducibility\\original_code_package\\data",
+  "primary_status": "纳入477条一致评测集",
+  "review_status": "复核/剔除候选",
+  "counts": {
+    "full500": {
+      "all": {
+        "raw_candidate_records": 500,
+        "unique_candidate_ids": 500,
+        "sentence_groups_with_records": 468,
+        "unique_normalized_sentence_texts": 468,
+        "class_counts": {
+          "ATTRIBUTE": 43,
+          "COMPLEMENT": 45,
+          "OTHER": 77,
+          "TEMPORAL_ADVERBIAL": 335
+        },
+        "quality_tier_counts": {
+          "A_主评测候选": 133,
+          "B_边界复核集": 250,
+          "C_暂不纳入主实验": 117
+        },
+        "evaluation_status_counts": {
+          "复核/剔除候选": 23,
+          "纳入477条一致评测集": 477
+        },
+        "review_candidate_records": 23,
+        "mixed_status_sentence_groups": 13,
+        "offset_text_mismatches": 0
+      },
+      "train": {
+        "raw_candidate_records": 300,
+        "unique_candidate_ids": 300,
+        "sentence_groups_with_records": 280,
+        "unique_normalized_sentence_texts": 280,
+        "class_counts": {
+          "ATTRIBUTE": 27,
+          "COMPLEMENT": 27,
+          "OTHER": 45,
+          "TEMPORAL_ADVERBIAL": 201
+        },
+        "quality_tier_counts": {
+          "A_主评测候选": 79,
+          "B_边界复核集": 152,
+          "C_暂不纳入主实验": 69
+        },
+        "evaluation_status_counts": {
+          "复核/剔除候选": 14,
+          "纳入477条一致评测集": 286
+        },
+        "review_candidate_records": 14,
+        "mixed_status_sentence_groups": 9,
+        "offset_text_mismatches": 0
+      },
+      "dev": {
+        "raw_candidate_records": 96,
+        "unique_candidate_ids": 96,
+        "sentence_groups_with_records": 94,
+        "unique_normalized_sentence_texts": 94,
+        "class_counts": {
+          "ATTRIBUTE": 8,
+          "COMPLEMENT": 9,
+          "OTHER": 13,
+          "TEMPORAL_ADVERBIAL": 66
+        },
+        "quality_tier_counts": {
+          "A_主评测候选": 23,
+          "B_边界复核集": 50,
+          "C_暂不纳入主实验": 23
+        },
+        "evaluation_status_counts": {
+          "复核/剔除候选": 3,
+          "纳入477条一致评测集": 93
+        },
+        "review_candidate_records": 3,
+        "mixed_status_sentence_groups": 2,
+        "offset_text_mismatches": 0
+      },
+      "test": {
+        "raw_candidate_records": 104,
+        "unique_candidate_ids": 104,
+        "sentence_groups_with_records": 94,
+        "unique_normalized_sentence_texts": 94,
+        "class_counts": {
+          "ATTRIBUTE": 8,
+          "COMPLEMENT": 9,
+          "OTHER": 19,
+          "TEMPORAL_ADVERBIAL": 68
+        },
+        "quality_tier_counts": {
+          "A_主评测候选": 31,
+          "B_边界复核集": 48,
+          "C_暂不纳入主实验": 25
+        },
+        "evaluation_status_counts": {
+          "复核/剔除候选": 6,
+          "纳入477条一致评测集": 98
+        },
+        "review_candidate_records": 6,
+        "mixed_status_sentence_groups": 2,
+        "offset_text_mismatches": 0
+      }
+    },
+    "primary477": {
+      "all": {
+        "raw_candidate_records": 477,
+        "unique_candidate_ids": 477,
+        "sentence_groups_with_records": 458,
+        "unique_normalized_sentence_texts": 458,
+        "class_counts": {
+          "ATTRIBUTE": 39,
+          "COMPLEMENT": 44,
+          "OTHER": 63,
+          "TEMPORAL_ADVERBIAL": 331
+        },
+        "quality_tier_counts": {
+          "A_主评测候选": 133,
+          "B_边界复核集": 250,
+          "C_暂不纳入主实验": 94
+        },
+        "evaluation_status_counts": {
+          "纳入477条一致评测集": 477
+        },
+        "review_candidate_records": 0,
+        "mixed_status_sentence_groups": 13,
+        "offset_text_mismatches": 0
+      },
+      "train": {
+        "raw_candidate_records": 286,
+        "unique_candidate_ids": 286,
+        "sentence_groups_with_records": 275,
+        "unique_normalized_sentence_texts": 275,
+        "class_counts": {
+          "ATTRIBUTE": 23,
+          "COMPLEMENT": 27,
+          "OTHER": 37,
+          "TEMPORAL_ADVERBIAL": 199
+        },
+        "quality_tier_counts": {
+          "A_主评测候选": 79,
+          "B_边界复核集": 152,
+          "C_暂不纳入主实验": 55
+        },
+        "evaluation_status_counts": {
+          "纳入477条一致评测集": 286
+        },
+        "review_candidate_records": 0,
+        "mixed_status_sentence_groups": 9,
+        "offset_text_mismatches": 0
+      },
+      "dev": {
+        "raw_candidate_records": 93,
+        "unique_candidate_ids": 93,
+        "sentence_groups_with_records": 93,
+        "unique_normalized_sentence_texts": 93,
+        "class_counts": {
+          "ATTRIBUTE": 8,
+          "COMPLEMENT": 9,
+          "OTHER": 12,
+          "TEMPORAL_ADVERBIAL": 64
+        },
+        "quality_tier_counts": {
+          "A_主评测候选": 23,
+          "B_边界复核集": 50,
+          "C_暂不纳入主实验": 20
+        },
+        "evaluation_status_counts": {
+          "纳入477条一致评测集": 93
+        },
+        "review_candidate_records": 0,
+        "mixed_status_sentence_groups": 2,
+        "offset_text_mismatches": 0
+      },
+      "test": {
+        "raw_candidate_records": 98,
+        "unique_candidate_ids": 98,
+        "sentence_groups_with_records": 90,
+        "unique_normalized_sentence_texts": 90,
+        "class_counts": {
+          "ATTRIBUTE": 8,
+          "COMPLEMENT": 8,
+          "OTHER": 14,
+          "TEMPORAL_ADVERBIAL": 68
+        },
+        "quality_tier_counts": {
+          "A_主评测候选": 31,
+          "B_边界复核集": 48,
+          "C_暂不纳入主实验": 19
+        },
+        "evaluation_status_counts": {
+          "纳入477条一致评测集": 98
+        },
+        "review_candidate_records": 0,
+        "mixed_status_sentence_groups": 2,
+        "offset_text_mismatches": 0
+      }
+    }
+  },
+  "validation": {
+    "schema_version": "authority500-data-protocol-v1.0",
+    "passed_split_sid_disjoint": true,
+    "passed_normalized_text_disjoint": true,
+    "passed_source_structure": true,
+    "passed_offset_bounds": true,
+    "passed_offset_text_exact_match": true,
+    "split_sid_overlap_count": 0,
+    "text_cross_split_overlap_count": 0,
+    "structural_issue_count": 0,
+    "offset_bounds_issue_count": 0,
+    "offset_text_mismatch_count": 0,
+    "candidate_id_order_difference_count": 15,
+    "error_count": 0,
+    "notice_count": 15,
+    "total_issue_count": 15,
+    "source_sentence_groups": 468,
+    "source_gold_groups": 468,
+    "full_candidate_records": 500,
+    "primary_candidate_records": 477,
+    "review_candidate_records": 23,
+    "mixed_status_groups": 13,
+    "review_only_groups": 10,
+    "split_sid_counts": {
+      "train": 280,
+      "dev": 94,
+      "test": 94
+    }
+  },
+  "protocol": {
+    "primary_training": "primary477 train candidates only",
+    "model_selection": "primary477 dev candidates only",
+    "confirmatory_test": "primary477 test candidates only",
+    "full500_robustness": "frozen model; status-stratified; provisional review labels",
+    "review_candidate_loss": "MASKED",
+    "target_gold_graph_edges_visible_to_predictor": false,
+    "rule_statistics_source": "primary477 train only",
+    "annotation_metadata_as_predictor_feature": "FORBIDDEN",
+    "unregistered_text_region_label": "UNKNOWN_NOT_O",
+    "unmatched_open_span_prediction": "UNSCORED_AND_LOGGED",
+    "open_span_precision_claim_allowed": false
+  }
+}

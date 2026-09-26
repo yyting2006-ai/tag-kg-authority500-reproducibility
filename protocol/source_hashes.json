@@ -1,0 +1,19 @@
+{
+  "schema_version": "authority500-data-protocol-v1.0",
+  "data_dir": "E:\\VScode\\CAIT2026_Submission\\reproducibility\\original_code_package\\data",
+  "before": {
+    "authority500_full_sentences.jsonl": "976e9c168a5a62de27f41f8a968be289ab78d8a4e852845b8531e353fa34dce3",
+    "authority500_full_gold_annotations.jsonl": "850acc49a1f3942bcf6c25d504f004f7021bc8ef119401ad4c2fff879b6e4c29",
+    "splits/train.txt": "edcba040be0bc201f63432cf9a6f4a0f0395d8d3afcc8c742912c5b5f9c86528",
+    "splits/dev.txt": "375b583591fd27a543ba3097665299e06fd2775db0efa6d6c4e54ad75d551fc2",
+    "splits/test.txt": "4d8760425add4dda981a388ba6b19f81dfb9d8acd7bd9ff606f0dc19654170c7"
+  },
+  "after": {
+    "authority500_full_sentences.jsonl": "976e9c168a5a62de27f41f8a968be289ab78d8a4e852845b8531e353fa34dce3",
+    "authority500_full_gold_annotations.jsonl": "850acc49a1f3942bcf6c25d504f004f7021bc8ef119401ad4c2fff879b6e4c29",
+    "splits/train.txt": "edcba040be0bc201f63432cf9a6f4a0f0395d8d3afcc8c742912c5b5f9c86528",
+    "splits/dev.txt": "375b583591fd27a543ba3097665299e06fd2775db0efa6d6c4e54ad75d551fc2",
+    "splits/test.txt": "4d8760425add4dda981a388ba6b19f81dfb9d8acd7bd9ff606f0dc19654170c7"
+  },
+  "unchanged": true
+}

@@ -1,0 +1,11 @@
+claim_id,claim_scope,manuscript_location,canonical_source,source_locator,package_artifact,validation
+C01,data composition,Abstract; Section 3.2,CAIT2026_TAG_KG_full_author.pdf,p1-3,manuscript.md; main.tex; TAG_KG_journal_extension.pdf,pdf text extraction and table audit
+C02,graph scale and integrity,Abstract; Section 4.3,CAIT2026_TAG_KG_full_author.pdf,p1 and p4,figures/fig1_architecture.svg; manuscript.md,graph counts transcribed and visual figure checked
+C03,construction-set audit,Section 4.4,CAIT2026_TAG_KG_full_author.pdf,p5,manuscript.md; main.tex,caption explicitly marks resubstitution-only
+C04,Primary predictive comparison,Abstract; Section 6.1,CAIT2026_TAG_KG_full_author.pdf,p7,manuscript.md; main.tex; TAG_KG_journal_extension.pdf,.844/.701 and paired CI cross-checked against mother PDF
+C05,Full robustness,Section 6.2,CAIT2026_TAG_KG_full_author.pdf,p7-8,manuscript.md; main.tex,104-record table cross-checked
+C06,ablation and stability,Section 6.3,CAIT2026_TAG_KG_full_author.pdf,p8,manuscript.md; main.tex,ablation values and five-split summaries cross-checked
+C07,risk-coverage,Abstract; Section 6.4; Figure 3,CAIT2026_TAG_KG_full_author.pdf,p8,figures/fig3_risk_coverage.svg; manuscript.md,.156/.070/.053/.030 and review counts cross-checked
+C08,LLM explanation audit,Abstract; Section 6.5; Table 9,CAIT2026_TAG_KG_full_author.pdf,p9,manuscript.md; main.tex,846-call arithmetic checked
+C09,stored-path traceability,Section 6.5; Table 10,CAIT2026_TAG_KG_full_author.pdf,p8-9,manuscript.md; main.tex,field totals and 0/500 page verification checked
+C10,limitations and intended use,Sections 3.4 and 9,CAIT2026_TAG_KG_full_author.pdf,p2 and p10,manuscript.md; submission_checklist.md,scope and release constraints retained

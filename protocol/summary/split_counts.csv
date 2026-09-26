@@ -1,0 +1,9 @@
+﻿view,split,raw_candidate_records,unique_candidate_ids,sentence_groups_with_records,unique_normalized_sentence_texts,review_candidate_records,mixed_status_sentence_groups,offset_text_mismatches,class_counts_json,quality_tier_counts_json,evaluation_status_counts_json
+primary477,train,286,286,275,275,0,9,0,"{""ATTRIBUTE"": 23, ""COMPLEMENT"": 27, ""OTHER"": 37, ""TEMPORAL_ADVERBIAL"": 199}","{""A_主评测候选"": 79, ""B_边界复核集"": 152, ""C_暂不纳入主实验"": 55}","{""纳入477条一致评测集"": 286}"
+primary477,dev,93,93,93,93,0,2,0,"{""ATTRIBUTE"": 8, ""COMPLEMENT"": 9, ""OTHER"": 12, ""TEMPORAL_ADVERBIAL"": 64}","{""A_主评测候选"": 23, ""B_边界复核集"": 50, ""C_暂不纳入主实验"": 20}","{""纳入477条一致评测集"": 93}"
+primary477,test,98,98,90,90,0,2,0,"{""ATTRIBUTE"": 8, ""COMPLEMENT"": 8, ""OTHER"": 14, ""TEMPORAL_ADVERBIAL"": 68}","{""A_主评测候选"": 31, ""B_边界复核集"": 48, ""C_暂不纳入主实验"": 19}","{""纳入477条一致评测集"": 98}"
+primary477,all,477,477,458,458,0,13,0,"{""ATTRIBUTE"": 39, ""COMPLEMENT"": 44, ""OTHER"": 63, ""TEMPORAL_ADVERBIAL"": 331}","{""A_主评测候选"": 133, ""B_边界复核集"": 250, ""C_暂不纳入主实验"": 94}","{""纳入477条一致评测集"": 477}"
+full500,train,300,300,280,280,14,9,0,"{""ATTRIBUTE"": 27, ""COMPLEMENT"": 27, ""OTHER"": 45, ""TEMPORAL_ADVERBIAL"": 201}","{""A_主评测候选"": 79, ""B_边界复核集"": 152, ""C_暂不纳入主实验"": 69}","{""复核/剔除候选"": 14, ""纳入477条一致评测集"": 286}"
+full500,dev,96,96,94,94,3,2,0,"{""ATTRIBUTE"": 8, ""COMPLEMENT"": 9, ""OTHER"": 13, ""TEMPORAL_ADVERBIAL"": 66}","{""A_主评测候选"": 23, ""B_边界复核集"": 50, ""C_暂不纳入主实验"": 23}","{""复核/剔除候选"": 3, ""纳入477条一致评测集"": 93}"
+full500,test,104,104,94,94,6,2,0,"{""ATTRIBUTE"": 8, ""COMPLEMENT"": 9, ""OTHER"": 19, ""TEMPORAL_ADVERBIAL"": 68}","{""A_主评测候选"": 31, ""B_边界复核集"": 48, ""C_暂不纳入主实验"": 25}","{""复核/剔除候选"": 6, ""纳入477条一致评测集"": 98}"
+full500,all,500,500,468,468,23,13,0,"{""ATTRIBUTE"": 43, ""COMPLEMENT"": 45, ""OTHER"": 77, ""TEMPORAL_ADVERBIAL"": 335}","{""A_主评测候选"": 133, ""B_边界复核集"": 250, ""C_暂不纳入主实验"": 117}","{""复核/剔除候选"": 23, ""纳入477条一致评测集"": 477}"

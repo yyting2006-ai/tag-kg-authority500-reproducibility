@@ -1,0 +1,51 @@
+{
+  "node_labels": [
+    "Sentence",
+    "Token",
+    "Span",
+    "Predicate",
+    "TemporalExpression",
+    "SyntacticFunction",
+    "Cue",
+    "Rule",
+    "Evidence",
+    "AuthoritySource",
+    "BoundaryCase"
+  ],
+  "relationship_types": [
+    "HAS_SPAN",
+    "HAS_PREDICATE",
+    "REALIZES",
+    "HAS_CUE",
+    "MODIFIES",
+    "CANDIDATE_FOR",
+    "SUPPORTS",
+    "CONTRADICTS",
+    "TRIGGERS",
+    "REQUIRES_CUE",
+    "CITES",
+    "HAS_POSITIVE_CASE",
+    "HAS_NEGATIVE_CASE"
+  ],
+  "properties": {
+    "Sentence": ["sid", "text"],
+    "Span": ["sid", "text", "start_char", "end_char"],
+    "Predicate": ["sid", "text"],
+    "TemporalExpression": ["text", "normalized_type"],
+    "SyntacticFunction": ["name"],
+    "Cue": ["type", "text"],
+    "Rule": ["rid", "name", "description", "negative_pattern", "priority", "authority_source", "source_scope", "source_page", "status", "notes", "decision_question", "rule_family", "risk_level"],
+    "Evidence": ["eid", "type", "description"],
+    "AuthoritySource": ["source_id", "citation", "source_type", "authority_level", "grammar_scope", "kg_use", "verification_status", "url_or_identifier", "notes"],
+    "BoundaryCase": ["case_id", "text", "case_type", "function", "explanation"]
+  },
+  "functions": [
+    "TEMPORAL_ADVERBIAL",
+    "ATTRIBUTE",
+    "COMPLEMENT",
+    "OBJECT",
+    "SUBJECT",
+    "OTHER",
+    "NEED_HUMAN_REVIEW"
+  ]
+}

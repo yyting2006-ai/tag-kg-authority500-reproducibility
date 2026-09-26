@@ -1,0 +1,57 @@
+{
+  "node_count": 3100,
+  "edge_count": 11110,
+  "node_types": {
+    "AnnotationDecision": 1500,
+    "CandidateSpan": 500,
+    "ConsensusLabel": 500,
+    "Sentence": 468,
+    "GrammarRule": 54,
+    "DiagnosticCue": 37,
+    "AmbiguityType": 16,
+    "AuthoritySource": 10,
+    "SyntacticFunction": 6,
+    "CleaningStatus": 3,
+    "CypherQueryTemplate": 3,
+    "Annotator": 3
+  },
+  "edge_types": {
+    "TRIGGERS_CUE": 2061,
+    "HAS_AMBIGUITY": 1690,
+    "MATCHES_RULE": 1519,
+    "ANNOTATED_BY": 1500,
+    "MADE_BY": 1500,
+    "HAS_CANDIDATE": 500,
+    "HAS_CONSENSUS": 500,
+    "MAPS_TO": 500,
+    "HAS_CLEANING_STATUS": 500,
+    "DERIVED_FROM": 468,
+    "CITES": 185,
+    "ACTIVATES_RULE": 127,
+    "SUPPORTS_FUNCTION": 54,
+    "CAN_QUERY": 6
+  },
+  "candidate_instances": 500,
+  "unique_sentences": 468,
+  "quality_tiers": {
+    "B_边界复核集": 250,
+    "A_主评测候选": 133,
+    "C_暂不纳入主实验": 117
+  },
+  "integrity_failures": {
+    "dangling_edges": 0,
+    "candidate_without_sentence": 0,
+    "candidate_without_consensus": 0,
+    "candidate_without_cleaning_status": 0,
+    "candidate_without_three_annotations": 0,
+    "candidate_without_any_cue": 0
+  },
+  "candidate_rule_match_distribution": {
+    "0": 22,
+    "1": 63,
+    "2": 84,
+    "3": 152,
+    "4": 63,
+    "5": 116
+  }
+}

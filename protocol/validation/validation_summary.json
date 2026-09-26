@@ -1,0 +1,29 @@
+{
+  "schema_version": "authority500-data-protocol-v1.0",
+  "passed_split_sid_disjoint": true,
+  "passed_normalized_text_disjoint": true,
+  "passed_source_structure": true,
+  "passed_offset_bounds": true,
+  "passed_offset_text_exact_match": true,
+  "split_sid_overlap_count": 0,
+  "text_cross_split_overlap_count": 0,
+  "structural_issue_count": 0,
+  "offset_bounds_issue_count": 0,
+  "offset_text_mismatch_count": 0,
+  "candidate_id_order_difference_count": 15,
+  "error_count": 0,
+  "notice_count": 15,
+  "total_issue_count": 15,
+  "source_sentence_groups": 468,
+  "source_gold_groups": 468,
+  "full_candidate_records": 500,
+  "primary_candidate_records": 477,
+  "review_candidate_records": 23,
+  "mixed_status_groups": 13,
+  "review_only_groups": 10,
+  "split_sid_counts": {
+    "train": 280,
+    "dev": 94,
+    "test": 94
+  }
+}

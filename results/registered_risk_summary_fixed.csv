@@ -1,0 +1,5 @@
+﻿method,registered_universe,defer_rate,n_deferred,n_retained,retained_joint_accuracy,missing_registered_keys_deferred
+TAGKG-FlatRule-Adapter,96,0.0,0,96,0.84375,0
+TAGKG-FlatRule-Adapter,96,0.1,10,86,0.9302325581395349,1
+TAGKG-FlatRule-Adapter,96,0.2,20,76,0.9473684210526315,1
+TAGKG-FlatRule-Adapter,96,0.3,29,67,0.9701492537313433,1
