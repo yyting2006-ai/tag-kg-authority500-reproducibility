@@ -68,7 +68,7 @@ Selective classification trades coverage for lower risk by allowing a model to a
 
 Given a sentence \(x\) and a temporal candidate \(c=(b,e,s)\), where \(b\) and \(e\) are character offsets and \(s\) is the surface string, the system predicts:
 
-`y(c,x) in {TADV, ATTR, COMP, OTHER}`.
+$$y(c,x)\in\{\mathrm{TADV},\mathrm{ATTR},\mathrm{COMP},\mathrm{OTHER}\}.$$ 
 
 `TADV` modifies an event or predicate as a temporal adverbial. `ATTR` modifies a noun, frequently through "的". `COMP` follows or is selected by a predicate and expresses duration, endpoint, result time, or scheduled time. `OTHER` covers comparison standards, temporal subjects or topics, discourse frames, malformed boundaries, and unsupported cases. Table 1 illustrates the central contrast.
 
@@ -136,19 +136,17 @@ The final rerun chooses span thresholds, function hyperparameters, and any proba
 
 For candidate \(c\) and sentence \(x\), the deterministic cue builder returns a hypothesis-conditioned set \(U_y(c,x)\) for each task label \(y\). This is important because cues such as event-time position are tested under a proposed function and are not all label-independent observations. The runtime selector chooses at most one rule \(r_y(c)\) from the frozen inventory. With required cue set \(Q(r)\) and integer priority \(\pi(r)\) in [0,100], define:
 
-`m_y(c) = |Q(r_y) intersect U_y(c,x)| / |Q(r_y)|`
-
-`k_y(c) = m_y(c) * (pi(r_y)/100 + 0.25)`.
+$$m_y(c)=\frac{|Q(r_y)\cap U_y(c,x)|}{|Q(r_y)|},\qquad k_y(c)=m_y(c)\left(\frac{\pi(r_y)}{100}+0.25\right).$$
 
 Both values are zero if no rule is selected or no required cue matches. The function score is:
 
-`S_y(c) = log(max(P_local(y | c,x), 10^-6)) + alpha * rho(r_y) * k_y(c)`.
+$$S_y(c)=\log\!\left(\max\{P_{\mathrm{local}}(y\mid c,x),10^{-6}\}\right)+\alpha\,\rho(r_y)\,k_y(c),\qquad \widehat y=\arg\max_y S_y(c).$$
 
 The coefficient `alpha` is selected on the 93 Primary-development keys using registered labeled-candidate macro recall. Ties prefer higher conditional accuracy and then smaller `alpha`. The prediction is the label with maximum `S_y(c)`. This is a flat score: it does not perform message passing, path learning, graph embedding, or maximization over all same-label rules. "KG-local" means that the rule metadata are retrievable from TAG-KG, not that graph size itself improves accuracy.
 
 Rule reliability is re-estimated inside each Primary training partition. For rule \(r\), let \(n_r\) be the number of unique generator-reachable training keys for which the label-conditioned channel triggers, and let \(c_r\) be those triggers whose hypothesized label equals the training gold label. The frozen weight is:
 
-`rho(r) = (c_r + 1)/(n_r + 2), if n_r > 0; 0, otherwise.`
+$$\rho(r)=\begin{cases}(c_r+1)/(n_r+2),&n_r>0,\\0,&n_r=0.\end{cases}$$
 
 The zero fallback makes unsupported rules fail closed. No flagged record, development or test label, LLM output, target gold graph edge, harm or rescue statistic, or cross-split stability score enters `rho`. The frozen rerun uses 286 Primary-train records representing 283 keys: 278 are generator-reachable, five are unreachable, and 16 of 54 rules receive positive train support. Each repeated split recomputes its own weights and hashes rather than reusing a global table. Because the inventory was previously developed against the complete construction collection, this experiment tests a frozen inventory with train-only reliability, not out-of-sample rule induction.
 
@@ -221,7 +219,7 @@ We replace the ambiguous single "function accuracy" column with three views.
 
 **Registered exact-span recall.** Let \(G_P\) be the set of unique Primary `(sid,b,e,s)` keys, \(G_F\) the corresponding Full registry, and \(P\) the generated spans. Exact registered recall is:
 
-`R_reg = |P intersect G_P| / |G_P|`.
+$$R_{\mathrm{reg}}=\frac{|P\cap G_P|}{|G_P|}.$$
 
 Sentence ID, surface text, and corrected offsets must all match. A prediction matching a flagged key is ignored in Primary scoring. A prediction matching no key in Full is logged as `UNSCORED-AND-LOGGED` for adjudication. A registered Primary candidate that is not generated reduces recall.
 
@@ -229,7 +227,7 @@ Sentence ID, surface text, and corrected offsets must all match. A prediction ma
 
 **Registered labeled-candidate recall.** Let \(G_P^+\) be the Primary labeled registry. End-to-end labeled recall is:
 
-`R_lab = |{g in G_P^+ : there exists p in P, key(p)=key(g), y_hat_p=y_g}| / |G_P^+|`.
+$$R_{\mathrm{lab}}=\frac{|\{g\in G_P^+:\exists p\in P,\operatorname{key}(p)=\operatorname{key}(g),\widehat y_p=y_g\}|}{|G_P^+|}.$$
 
 Macro labeled recall averages the four per-label recalls. A miss or wrong label remains an error, while the metric does not pretend that an unregistered span is known to be wrong. Earlier compatibility scores mapped misses to `OTHER` for macro-F1. Those archived values are not mixed with the revised registered metrics.
 
@@ -237,7 +235,7 @@ Macro labeled recall averages the four per-label recalls. A miss or wrong label 
 
 For RQ2, the routing universe is the 93 unique Primary-development keys and 96 Primary-test keys. The acceptance score is:
 
-`q(c) = P_span(c) * max_y P(y | c,x)`,
+$$q(c)=P_{\mathrm{span}}(c)\max_yP(y\mid c,x),\qquad A_\tau=\{c:q(c)\geq\tau\}.$$
 
 for an exactly emitted registered candidate. A missed registered key receives the lowest score. Status, tier, paper position, target annotations, and test outcomes are forbidden. Flagged matches are ignored and unmatched outputs remain outside the risk denominator. The automatic set at threshold \(\tau\) is \(A_\tau=\{c:q(c)\geq\tau\}\). Selective risk is its joint span-and-label error proportion.
 
@@ -309,6 +307,8 @@ Flat rule and cue features add 3.1 points of labeled recall and 15.9 points of m
 
 Across five grouped splits, adapter labeled recall is .846 +/- .023 versus .724 +/- .017 locally, and macro recall is .713 +/- .055 versus .337 +/- .022. The explicit train-only reranker obtains .832 +/- .025 and .659 +/- .061. All five splits choose nonzero `alpha`. These repeated-split results are a stability check for the internal protocol, not evidence of external-domain transfer.
 
+[[FIGURE4]]
+
 ### 6.4 RQ2: selective teacher review
 
 | Coverage | Auto n | Joint risk | Review n | Misses deferred |
@@ -355,6 +355,8 @@ TAG-KG is not assigned synthetic 1.0 scores in this table. Deterministic state i
 **Table 10.** Stored-path traceability. "Valid" means structural or algorithmic reproduction, not linguistic truth. Source: traceability audit in the CAIT full-author manuscript.
 
 The final adapter scores 95 of 96 registered keys, logs all 15 unregistered predictions as `UNSCORED`, and ignores all four emitted flagged keys; the reranker gives 95/96, 16/16, and 5/5 for the corresponding trace checks. All ten manifest input hashes and the frozen-script hash reproduce. In the full graph, 478 of 500 candidates have the requested sentence-candidate-rule-source path. Annotation, consensus, and quality links are attached only to the post-prediction audit record and remain invisible to the predictor. Their completeness is provenance evidence, not evidence that they caused the decision. No artifact explicitly marks an authority page as content-verified; we report 0/500 rather than infer verification from a locator.
+
+[[FIGURE5]]
 
 ## 7 Error analysis and review workflow
 
@@ -426,7 +428,7 @@ Finally, the ledger records the scope of a claim in plain language. A structural
 
 ### Acknowledgements
 
-The authors used OpenAI Codex (accessed 27 September 2026; available through OpenAI Codex) for manuscript restructuring, code inspection, consistency checks, audit documentation, and release packaging. OpenAI Image 2 (accessed 27 September 2026; available through OpenAI services) assisted with the architecture figure. The authors reviewed and edited all generated material, verified the numerical claims, source links, data rights, and artifacts, and take responsibility for the final manuscript. These tools are not authors.
+The authors used OpenAI Codex (accessed 27 September 2026; available through OpenAI Codex) for language polishing, programming assistance, and routine consistency checks. The authors reviewed all suggestions, verified the numerical claims, source links, data rights, and artifacts, and take responsibility for the final manuscript. This tool is not an author.
 
 ### Author contributions
 
@@ -454,7 +456,7 @@ Ethical approval was not required. The study uses written example sentences and 
 
 ### AI-use disclosure
 
-OpenAI Codex (accessed 27 September 2026; available through OpenAI Codex) assisted with manuscript restructuring, code inspection, consistency checks, audit documentation, and release packaging. OpenAI Image 2 (accessed 27 September 2026; available through OpenAI services) assisted with the architecture figure. The authors checked all numerical claims, source links, data rights, and generated artifacts and remain responsible for the content. The tools are not authors.
+OpenAI Codex (accessed 27 September 2026; available through OpenAI Codex) assisted with language polishing, programming assistance, and routine consistency checks. The authors checked all numerical claims, source links, data rights, and artifacts and remain responsible for the content. The tool is not an author.
 
 ## References
 

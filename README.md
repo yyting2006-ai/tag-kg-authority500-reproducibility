@@ -19,7 +19,7 @@ The release supports inspection of the journal extension submitted to *Natural L
 - `graph/`: verified candidate-centric graph nodes, edges, JSON, integrity reports, audit tables, and query examples (3,100 nodes and 11,110 directed typed edges).
 - `results/`: fixed and repeated Primary-477 evaluation outputs, paired bootstrap intervals, locked Full-500 checks, and risk-coverage tables.
 - `protocol/`: public split/mask manifests and data-protocol validation summaries.
-- `paper/`: the journal PDF, Markdown/LaTeX source, evidence ledger, and version audit.
+- `paper/`: the journal PDF, Markdown/HTML/LaTeX source, five composite SVG figures, accessibility text, evidence ledger, and version audit.
 - `supplement/TAG_KG_NLP_submission_package.zip`: synchronized submission package.
 - `RELEASE_NOTE.md`: scope, de-identification, provenance, and release-boundary record.
 

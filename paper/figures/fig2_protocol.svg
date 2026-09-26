@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="40" y="44" font-family="Arial, Helvetica, sans-serif" font-size="27px" font-weight="700" text-anchor="start" fill="#172033">Authority500-Full: masks, splits, and quality tiers</text>
+<text x="40" y="72" font-family="Arial, Helvetica, sans-serif" font-size="15px" font-weight="400" text-anchor="start" fill="#475569">Counts are raw records unless a panel explicitly labels unique keys or sentence groups.</text>
+<rect x="35" y="100" width="645" height="300" rx="10" fill="#F8FBFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="53" y="128" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="start" fill="#0F4C81">A</text>
+<text x="85" y="128" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="start" fill="#172033">Registry and masks</text>
+<text x="70" y="154" font-family="Arial, Helvetica, sans-serif" font-size="14px" font-weight="700" text-anchor="start" fill="#334155">500 raw records</text>
+<rect x="70" y="175" width="520" height="42" rx="4" fill="#BFDBFE" stroke="#60A5FA" stroke-width="2"/>
+<rect x="566.0799999999999" y="175" width="23.92" height="42" rx="4" fill="#FDBA74" stroke="#F97316" stroke-width="2"/>
+<text x="318.03999999999996" y="202" font-family="Arial, Helvetica, sans-serif" font-size="13px" font-weight="700" text-anchor="middle" fill="#1E3A8A">Primary 477</text>
+<text x="578.04" y="202" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="700" text-anchor="middle" fill="#7C2D12">23</text>
+<rect x="75" y="255" width="158" height="95" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="154" y="281" font-family="Arial, Helvetica, sans-serif" font-size="14px" font-weight="700" text-anchor="middle" fill="#0F4C81">Full</text>
+<text x="154" y="304" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="400" text-anchor="middle" fill="#334155">468 groups</text>
+<text x="154" y="322" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="400" text-anchor="middle" fill="#334155">500 raw</text>
+<text x="154" y="340" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="400" text-anchor="middle" fill="#334155">495 keys</text>
+<rect x="253" y="255" width="158" height="95" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="332" y="281" font-family="Arial, Helvetica, sans-serif" font-size="14px" font-weight="700" text-anchor="middle" fill="#0F4C81">Primary</text>
+<text x="332" y="304" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="400" text-anchor="middle" fill="#334155">458 groups</text>
+<text x="332" y="322" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="400" text-anchor="middle" fill="#334155">477 raw</text>
+<text x="332" y="340" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="400" text-anchor="middle" fill="#334155">472 keys</text>
+<rect x="431" y="255" width="158" height="95" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="510" y="281" font-family="Arial, Helvetica, sans-serif" font-size="14px" font-weight="700" text-anchor="middle" fill="#0F4C81">Review</text>
+<text x="510" y="304" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="400" text-anchor="middle" fill="#334155">10 groups</text>
+<text x="510" y="322" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="400" text-anchor="middle" fill="#334155">23 raw</text>
+<text x="510" y="340" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="400" text-anchor="middle" fill="#334155">flagged</text>
+<rect x="720" y="100" width="645" height="300" rx="10" fill="#F8FFFB" stroke="#CBD5E1" stroke-width="2"/>
+<text x="738" y="128" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="start" fill="#0F4C81">B</text>
+<text x="770" y="128" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="start" fill="#172033">Sentence-grouped split</text>
+<rect x="785" y="147.8125" width="76" height="192.1875" rx="3" fill="#BFDBFE" stroke="#60A5FA" stroke-width="1"/>
+<rect x="785" y="156.78125" width="76" height="183.21875" rx="3" fill="#86EFAC" stroke="#22C55E" stroke-width="1"/>
+<text x="823.0" y="361" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="700" text-anchor="middle" fill="#334155">Train</text>
+<text x="823.0" y="139.8125" font-family="Arial, Helvetica, sans-serif" font-size="11px" font-weight="400" text-anchor="middle" fill="#1D4ED8">300 full</text>
+<text x="823.0" y="174.78125" font-family="Arial, Helvetica, sans-serif" font-size="10px" font-weight="400" text-anchor="middle" fill="#166534">14 flag</text>
+<rect x="896" y="278.5" width="76" height="61.5" rx="3" fill="#BFDBFE" stroke="#60A5FA" stroke-width="1"/>
+<rect x="896" y="280.421875" width="76" height="59.578125" rx="3" fill="#86EFAC" stroke="#22C55E" stroke-width="1"/>
+<text x="934.0" y="361" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="700" text-anchor="middle" fill="#334155">Dev</text>
+<text x="934.0" y="270.5" font-family="Arial, Helvetica, sans-serif" font-size="11px" font-weight="400" text-anchor="middle" fill="#1D4ED8">96 full</text>
+<text x="934.0" y="298.421875" font-family="Arial, Helvetica, sans-serif" font-size="10px" font-weight="400" text-anchor="middle" fill="#166534">3 flag</text>
+<rect x="1007" y="273.375" width="76" height="66.625" rx="3" fill="#BFDBFE" stroke="#60A5FA" stroke-width="1"/>
+<rect x="1007" y="277.21875" width="76" height="62.78125" rx="3" fill="#86EFAC" stroke="#22C55E" stroke-width="1"/>
+<text x="1045.0" y="361" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="700" text-anchor="middle" fill="#334155">Test</text>
+<text x="1045.0" y="265.375" font-family="Arial, Helvetica, sans-serif" font-size="11px" font-weight="400" text-anchor="middle" fill="#1D4ED8">104 full</text>
+<text x="1045.0" y="295.21875" font-family="Arial, Helvetica, sans-serif" font-size="10px" font-weight="400" text-anchor="middle" fill="#166534">6 flag</text>
+<text x="1190" y="162" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="400" text-anchor="start" fill="#1D4ED8">blue = Full raw</text>
+<text x="1190" y="182" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="400" text-anchor="start" fill="#166534">green = Primary raw</text>
+<text x="1190" y="202" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="400" text-anchor="start" fill="#9A3412">orange labels = flagged</text>
+<rect x="35" y="430" width="645" height="285" rx="10" fill="#FFFCF7" stroke="#CBD5E1" stroke-width="2"/>
+<text x="53" y="458" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="start" fill="#0F4C81">C</text>
+<text x="85" y="458" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="start" fill="#172033">Quality tiers</text>
+<rect x="100" y="562.22" width="105" height="87.78" rx="3" fill="#2563EB" stroke="#2563EB" stroke-width="0"/>
+<text x="152.5" y="555.22" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="700" text-anchor="middle" fill="#172033">133</text>
+<text x="152.5" y="672" font-family="Arial, Helvetica, sans-serif" font-size="11px" font-weight="400" text-anchor="middle" fill="#475569">tier A</text>
+<rect x="275" y="485.0" width="105" height="165.0" rx="3" fill="#16A34A" stroke="#16A34A" stroke-width="0"/>
+<text x="327.5" y="478.0" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="700" text-anchor="middle" fill="#172033">250</text>
+<text x="327.5" y="672" font-family="Arial, Helvetica, sans-serif" font-size="11px" font-weight="400" text-anchor="middle" fill="#475569">tier B</text>
+<rect x="450" y="572.78" width="105" height="77.22" rx="3" fill="#EA580C" stroke="#EA580C" stroke-width="0"/>
+<text x="502.5" y="565.78" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="700" text-anchor="middle" fill="#172033">117</text>
+<text x="502.5" y="672" font-family="Arial, Helvetica, sans-serif" font-size="11px" font-weight="400" text-anchor="middle" fill="#475569">tier C</text>
+<text x="360" y="697" font-family="Arial, Helvetica, sans-serif" font-size="13px" font-weight="700" text-anchor="middle" fill="#334155">Primary keeps 133 A + 250 B + 94 C; all 23 flagged records are C-tier.</text>
+<rect x="720" y="430" width="645" height="285" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="738" y="458" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="start" fill="#0F4C81">D</text>
+<text x="770" y="458" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="start" fill="#172033">Primary vs Full test</text>
+<text x="770" y="535" font-family="Arial, Helvetica, sans-serif" font-size="15px" font-weight="700" text-anchor="start" fill="#2563EB">Primary</text>
+<rect x="885" y="516" width="235.2" height="24" rx="3" fill="#2563EB" stroke="#2563EB" stroke-width="0"/>
+<text x="1145" y="535" font-family="Arial, Helvetica, sans-serif" font-size="14px" font-weight="700" text-anchor="start" fill="#334155">98 raw | 96 keys | 90 groups</text>
+<text x="770" y="620" font-family="Arial, Helvetica, sans-serif" font-size="15px" font-weight="700" text-anchor="start" fill="#EA580C">Full</text>
+<rect x="885" y="601" width="249.6" height="24" rx="3" fill="#EA580C" stroke="#EA580C" stroke-width="0"/>
+<text x="1145" y="620" font-family="Arial, Helvetica, sans-serif" font-size="14px" font-weight="700" text-anchor="start" fill="#334155">104 raw | 102 keys | 94 groups</text>
+<text x="1042" y="690" font-family="Arial, Helvetica, sans-serif" font-size="13px" font-weight="700" text-anchor="middle" fill="#334155">The Full slice is locked before evaluation and retains the six flagged test records.</text>
+</svg>
