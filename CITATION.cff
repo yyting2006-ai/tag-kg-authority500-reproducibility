@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite the TAG-KG journal extension."
+title: "TAG-KG Authority500 Reproducibility Release"
+version: "1.0.0"
+date-released: 2026-09-27
+authors:
+  - family-names: You
+    given-names: Tingrui
+  - family-names: Zhang
+    given-names: Na
+  - family-names: Xiong
+    given-names: Ling
+  - family-names: Li
+    given-names: Jaimei
+repository-code: "https://github.com/yyting2006-ai/tag-kg-authority500-reproducibility"
+url: "https://github.com/yyting2006-ai/tag-kg-authority500-reproducibility"
+keywords:
+  - Chinese language education
+  - temporal expressions
+  - grammatical-function diagnosis
+  - knowledge graphs
+  - reproducibility
+abstract: "A public release of the Authority500-Full data, annotation exports, grammar rules, graph artifacts, and reproducibility code for TAG-KG temporal-function diagnosis."
