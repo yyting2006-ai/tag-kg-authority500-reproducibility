@@ -4,7 +4,7 @@
 
 The supposedly missing candidate-centric graph was found outside the V5 zip at:
 
-`E:\VScode\grammar_kg_temporal_adverbial\deliverables\kg_v2`
+the `graph/` directory in this repository
 
 It is not the older rule-centric `deep_kg_*` export. The recovered TAG-KG v2 export contains exactly 3,100 nodes, 11,110 edges, 500 candidate instances, 468 sentence nodes, 54 grammar rules, and 37 diagnostic cues. The A/B/C tier counts are 133/250/117. Independent rebuilding from the local cleaning CSV and current graph code reproduced all counts and all candidate and edge records (byte-identical after normalizing LF versus CRLF). The rebuilt node table differs in only one non-structural note string: `Added in TAG-KG...` versus `Added in KG v2...`.
 
@@ -12,21 +12,16 @@ The values 0.956 coverage, 0.864 all-instance accuracy, and 0.904 covered-instan
 
 ## Primary evidence
 
-- Full node export: `E:\VScode\grammar_kg_temporal_adverbial\deliverables\kg_v2\kg_v2_nodes.csv`
-- Full edge export: `E:\VScode\grammar_kg_temporal_adverbial\deliverables\kg_v2\kg_v2_edges.csv`
-- JSON export: `E:\VScode\grammar_kg_temporal_adverbial\deliverables\kg_v2\kg_v2_graph.json`
-- Candidate-level evidence table: `E:\VScode\grammar_kg_temporal_adverbial\deliverables\kg_v2\kg_v2_candidate_instances.csv`
-- Final audit CSV: `E:\VScode\grammar_kg_temporal_adverbial\deliverables\kg_v2\KG_v2_effect_evaluation.csv`
-- Optimization report: `E:\VScode\grammar_kg_temporal_adverbial\deliverables\kg_v2\KG_v2_optimization_report.md`
-- Before/after diagnosis: `E:\VScode\grammar_kg_temporal_adverbial\deliverables\kg_v2\KG_v2_failure_diagnosis.md`
-- Integrity summary: `E:\VScode\grammar_kg_temporal_adverbial\deliverables\kg_v2\KG_v2_integrity_summary.json`
-- Cleaning and annotation source CSV: `E:\VScode\grammar_kg_temporal_adverbial\deliverables\data_cleaning_audit\Authority500_清洗后建议表.csv`
-- Cleaning workbook: `E:\VScode\grammar_kg_temporal_adverbial\deliverables\data_cleaning_audit\Authority500_数据清洗与标注复核表.xlsx`
-- Rebuild code: `E:\VScode\grammar_kg_temporal_adverbial\scripts\build_kg_v2.py`
-- Integrity code: `E:\VScode\grammar_kg_temporal_adverbial\scripts\validate_kg_v2.py`
-- Current 54-rule inventory: `E:\VScode\grammar_kg_temporal_adverbial\data\rules_mvp.csv`
-- Independent audit recomputation: `E:\VScode\CAIT2026_Submission\tmp\forensics\verify_candidate_audit.py`
-- Independent rebuild sandbox: `E:\VScode\CAIT2026_Submission\tmp\forensics\kg_rebuild`
+- Full node export: `kg_v2_nodes.csv`
+- Full edge export: `kg_v2_edges.csv`
+- JSON export: `kg_v2_graph.json`
+- Candidate-level evidence table: `kg_v2_candidate_instances.csv`
+- Final audit CSV: `KG_v2_effect_evaluation.csv`
+- Optimization report: `KG_v2_optimization_report.md`
+- Before/after diagnosis: `KG_v2_failure_diagnosis.md`
+- Integrity summary: `KG_v2_integrity_summary.json`
+- Public rule inventory: `../data/rules_mvp.csv`
+- Candidate audit recomputation: `verify_candidate_audit.py`
 
 ## Independently reproduced graph counts
 
@@ -125,14 +120,13 @@ Recommended wording: "On the 500-record graph-construction collection, after rul
 
 Source locations in the original manuscript:
 
-- Graph count and integrity paragraph: `temporal_adverbial_diagnosis_route_a_rewrite.tex`, line 133.
-- Graph Evidence Audit text and table: lines 196-218.
-- A/B/C tier description: lines 125-129.
+- Graph count and integrity paragraph: current manuscript, graph-audit section.
+- Graph Evidence Audit text and table: current manuscript, graph-audit section.
+- A/B/C tier description: current manuscript, graph-audit section.
 
 Current text that is now factually outdated:
 
-- `E:\VScode\CAIT2026_Submission\main.tex`, current Limitations paragraph saying the complete candidate graph cannot be reconstructed.
-- `E:\VScode\CAIT2026_Submission\REVISION_NOTES.md`, lines 68-80, saying the graph and audit artifacts are missing.
+- Earlier manuscript drafts contained an incomplete graph-recovery limitation; the current manuscript and this release contain the verified export.
 
 The original/current structural comparison found that all 26 original citation keys are still present. The only original LaTeX label missing from the CAIT manuscript is `tab:kg_audit`. The other substantive row-level deletion is the KG-local row in `tab:explain`; that row should not be restored as an empirical result because its explanation values were assigned as constants in code.
 
