@@ -55,6 +55,7 @@ The journal article makes five contributions. First, it defines a four-label Chi
 The article is a journal-length extension of the previously withdrawn CAIT 2026 submission (Paper CT3001). The withdrawal was requested before registration and publication, and the paper was not included in the proceedings; the withdrawal letter is retained in the submission records. The extension is substantive in four ways: it formalizes the Primary versus Full estimands; replaces a single overloaded accuracy column with registered-span, conditional, and end-to-end labeled metrics; adds locked robustness, grouped stability, risk-coverage, and repeated LLM explanation audits; and documents the provenance and release boundaries needed for a teacher-facing research artifact. These additions sharpen the estimand and the limitations rather than enlarging the claim beyond the available data.
 
 \begin{figure}[htbp]
+\sidecapoff
 \centering
 \includegraphics[width=\linewidth]{figures/fig1_architecture.pdf}
 \caption{TAG-KG separates evidence-aware prediction, candidate-centric representation, and teacher review with versioned feedback. The flat rule scorer affects predictions; graph topology supports retrieval, provenance, and audit rather than supplying an unmeasured relational-model gain. Source: architecture contract in the CAIT full-author manuscript.}
@@ -117,6 +118,7 @@ All & 468 & 500 & 495 & 458 & 477 & 472 & 23 \\
 \textbf{Table 2.} Sentence-grouped partition and evaluation collections. Source: Authority500-Full split table in the CAIT full-author manuscript.
 
 \begin{figure}[htbp]
+\sidecapoff
 \centering
 \includegraphics[width=\linewidth]{figures/fig2_protocol.pdf}
 \caption{Primary and Full masks preserve both a consistency-marked confirmatory protocol and a locked robustness slice. Flagged records remain visible in the audit ledger. Source: Authority500-Full partition in the CAIT full-author manuscript.}
@@ -313,6 +315,7 @@ Flat rule and cue features add 3.1 points of labeled recall and 15.9 points of m
 Across five grouped splits, adapter labeled recall is .846 +/- .023 versus .724 +/- .017 locally, and macro recall is .713 +/- .055 versus .337 +/- .022. The explicit train-only reranker obtains .832 +/- .025 and .659 +/- .061. All five splits choose nonzero \texttt{alpha}. These repeated-split results are a stability check for the internal protocol, not evidence of external-domain transfer.
 
 \begin{figure}[htbp]
+\sidecapoff
 \centering
 \includegraphics[width=\linewidth]{figures/fig4_performance.pdf}
 \caption{Composite performance view: (A) Primary-test macro labeled recall for the local model, train-only reranker, flat-feature adapter, DeepSeek, and cascade; (B) per-class labeled recall for the final adapter; (C) locked Full-test robustness; and (D) the registered-candidate ablation and five-split stability summary. Values are reported in Tables 5-7.}
@@ -328,6 +331,7 @@ Coverage & Auto n & Joint risk & Review n & Misses deferred \\ \midrule
 \textbf{Table 8.} Registered-candidate risk-coverage routing on the Primary test. Source: locked routing table in the CAIT full-author manuscript.
 
 \begin{figure}[htbp]
+\sidecapoff
 \centering
 \includegraphics[width=\linewidth]{figures/fig3_risk_coverage.pdf}
 \caption{Selective routing lowers retained joint risk as automatic coverage decreases. The 70\% operating point routes 29 of 96 registered keys and retains .030 joint risk. Source: locked routing table in the CAIT full-author manuscript.}
@@ -366,6 +370,7 @@ Page locator / cue (graph) & 500/500 / 433/500 & 0/500 page-verified \\
 The final adapter scores 95 of 96 registered keys, logs all 15 unregistered predictions as \texttt{UNSCORED}, and ignores all four emitted flagged keys; the reranker gives 95/96, 16/16, and 5/5 for the corresponding trace checks. All ten manifest input hashes and the frozen-script hash reproduce. In the full graph, 478 of 500 candidates have the requested sentence-candidate-rule-source path. Annotation, consensus, and quality links are attached only to the post-prediction audit record and remain invisible to the predictor. Their completeness is provenance evidence, not evidence that they caused the decision. No artifact explicitly marks an authority page as content-verified; we report 0/500 rather than infer verification from a locator.
 
 \begin{figure}[htbp]
+\sidecapoff
 \centering
 \includegraphics[width=\linewidth]{figures/fig5_audit.pdf}
 \caption{Public evidence audit: (A) graph node composition, (B) leading typed edge families, (C) locked risk-coverage checkpoints, and (D) six release-integrity checks. The graph is an auditable representation and is not treated as a measured relational-model gain.}
