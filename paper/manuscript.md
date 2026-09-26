@@ -426,7 +426,7 @@ Finally, the ledger records the scope of a claim in plain language. A structural
 
 ### Acknowledgements
 
-The authors used OpenAI Codex for manuscript, code, and audit assistance and OpenAI Image 2 for the architecture figure. The authors verified the outputs and take responsibility for the final manuscript.
+The authors used OpenAI Codex (accessed 27 September 2026; available through OpenAI Codex) for manuscript restructuring, code inspection, consistency checks, audit documentation, and release packaging. OpenAI Image 2 (accessed 27 September 2026; available through OpenAI services) assisted with the architecture figure. The authors reviewed and edited all generated material, verified the numerical claims, source links, data rights, and artifacts, and take responsibility for the final manuscript. These tools are not authors.
 
 ### Author contributions
 
@@ -450,11 +450,11 @@ The earlier CAIT 2026 submission (Paper CT3001) was withdrawn at the authors' re
 
 ### Ethics statement
 
-The study uses written example sentences and structured expert annotations for language-education research. It does not collect learner performance, sensitive demographic attributes, or identifiable personal data. The intended use is decision support for corpus curation and teacher review. The system should not be used for student grading or teacher evaluation.
+Ethical approval was not required. The study uses written example sentences and structured expert annotations for language-education research; it does not collect learner performance, sensitive demographic attributes, or identifiable personal data. The intended use is decision support for corpus curation and teacher review. The system should not be used for student grading or teacher evaluation.
 
 ### AI-use disclosure
 
-OpenAI Codex assisted with manuscript restructuring, code inspection, consistency checks, and audit documentation. OpenAI Image 2 assisted with the architecture figure. The authors checked all numerical claims, source links, and generated artifacts and remain responsible for the content.
+OpenAI Codex (accessed 27 September 2026; available through OpenAI Codex) assisted with manuscript restructuring, code inspection, consistency checks, audit documentation, and release packaging. OpenAI Image 2 (accessed 27 September 2026; available through OpenAI services) assisted with the architecture figure. The authors checked all numerical claims, source links, data rights, and generated artifacts and remain responsible for the content. The tools are not authors.
 
 ## References
 
