@@ -39,7 +39,7 @@ Prepared against the current Cambridge author-information pages read on 2026-09-
 ## Required administrative readback
 
 - [x] Confirm the formal CAIT 2026 status from the author-provided withdrawal letter; the manuscript and cover letter state that the earlier version was formally withdrawn.
-- [x] Confirm all author names, affiliations, corresponding-author email, and funding wording from the supplied author-information and funding records (including Jaimei Li spelling).
+- [x] Confirm all author names, affiliations, corresponding-author email, and funding wording from the supplied author-information and funding records (including Jimei Li spelling).
 - [x] Confirm that the rights-cleared Authority500 source records and de-identified adjudication table may be released; annotator identities and private working files are excluded.
 - [x] Keep the CAIT withdrawal email and withdrawal note available in case the editor requests documentary confirmation.
 - [ ] Upload the final PDF and any required source files through the journal system after the administrative readback.

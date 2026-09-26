@@ -15,7 +15,7 @@ The authors declare no competing interests. This work was supported by the Natio
 Thank you for considering this manuscript.
 
 Sincerely,  
-Tingrui You, Na Zhang, Ling Xiong, and Jaimei Li  
+Tingrui You, Na Zhang, Ling Xiong, and Jimei Li  
 Hainan International College and School of Information Science, Beijing Language and Culture University  
 Beijing, China  
 Corresponding author: Ljm@blcu.edu.cn

@@ -7,6 +7,11 @@
 \usepackage{longtable}
 \usepackage{amsmath}
 \usepackage{xeCJK}
+% The CUP class removes the inter-author space in its final-author macro.
+% Keep the class file unchanged and restore the visible space locally.
+\makeatletter
+\def\aulastand{\ and\nobreakspace{}}
+\makeatother
 \setCJKmainfont[Path=./fonts/,Extension=.ttf]{Deng}
 \setCJKmonofont[Path=./fonts/,Extension=.ttf]{Deng}
 \lefttitle{TAG-KG}
@@ -23,7 +28,7 @@
 \affiliation{School of Information Science, Beijing Language and Culture University, Beijing, China}
 \author{Ling Xiong}
 \affiliation{School of Information Science, Beijing Language and Culture University, Beijing, China}
-\author{Jaimei Li}
+\author{Jimei Li}
 \affiliation{School of Information Science, Beijing Language and Culture University, Beijing, China. \email{Ljm@blcu.edu.cn}}
 \end{authgrp}
 \history{}
@@ -32,7 +37,9 @@
 \begin{abstract}
 Selecting Chinese examples for teaching temporal adverbials requires grammatical-function diagnosis rather than temporal-expression detection alone. The same surface form can be an event modifier, an attributive, a duration complement, a comparison standard, or a discourse frame. We present TAG-KG, an evidence architecture that combines a frozen, label-conditioned rule scorer with a candidate-centric knowledge graph and a selective teacher-review path. The scorer reranks a lightweight local classifier; the graph stores sentences, candidate spans, individual annotations, consensus labels, diagnostic cues, grammar rules, cleaning status, and authority provenance for retrieval and audit. We treat the data as a candidate registry rather than an exhaustively annotated open-span corpus. Authority500-Full contains 468 sentence groups and all 500 original candidate records. The 477 consistency-marked records form the Primary collection, while 23 provisional records remain visible for robustness and review. The independently rebuilt graph contains 3,100 nodes and 11,110 edges, including 54 rules and 37 cues, and passes six structural-integrity checks. Its 86.4\% rule agreement is explicitly a post-development construction-set audit rather than held-out accuracy. Confirmatory evaluation uses 98 Primary-test records and 96 unique registered keys; locked robustness uses 104 Full-test records and 102 keys, including six flagged records. On the fixed Primary test, the flat rule/cue adapter raises registered labeled recall from .750 to .844 and macro labeled recall from .365 to .701. The paired macro-recall gain is .336 with a 95\% group-bootstrap confidence interval of [.217, .446]. A historical, test-gold-free TAG-KG/DeepSeek cascade reaches .875/.753 for labeled and macro labeled recall, while the lowest-score 30\% routing policy lowers retained joint risk from .156 to .030. The article separates predictive evidence, construction auditing, and teacher review, and makes the claim scope explicit: the results support an internally held-out in-domain finding and a reproducible evidence workflow, not open-span generalization, universal grammatical truth, or measured teacher time savings.
 \end{abstract}
-\noindent\textbf{Keywords:} Chinese language education; temporal expressions; grammatical-function diagnosis; knowledge graphs; selective prediction
+\begin{keywords}
+Chinese language education; temporal expressions; grammatical-function diagnosis; knowledge graphs; selective prediction
+\end{keywords}
 \maketitle
 \section{Introduction}
 Temporal expressions are easy to notice but difficult to curate as pedagogical examples. In "昨天我去了学校" ("Yesterday I went to school"), "昨天" modifies an event and is a temporal adverbial. In "昨天的会议很重要" ("Yesterday's meeting was important"), the same surface string modifies a noun phrase. In "我学了三年中文" ("I studied Chinese for three years"), "三年" follows the predicate and functions as a duration complement. A system that treats every time-denoting phrase as a temporal adverbial can therefore supply teachers with examples that are fluent but grammatically misleading for the target teaching point.
@@ -437,7 +444,7 @@ Finally, the ledger records the scope of a claim in plain language. A structural
 The authors used OpenAI Codex (accessed 27 September 2026; available through OpenAI Codex) for language polishing and programming assistance. The authors reviewed all suggestions, verified the numerical claims, source links, data rights, and artifacts, and take responsibility for the final manuscript. This tool is not an author.
 
 \subsection{Author contributions}
-All four authors contributed to study conception, data curation, annotation, methodology, analysis, manuscript preparation or revision, and approval of the final manuscript. Tingrui You led implementation and evaluation. Jaimei Li supervised the study and served as corresponding author.
+All four authors contributed to study conception, data curation, annotation, methodology, analysis, manuscript preparation or revision, and approval of the final manuscript. Tingrui You led implementation and evaluation. Jimei Li supervised the study and served as corresponding author.
 
 \subsection{Competing interests}
 The authors declare no competing interests.

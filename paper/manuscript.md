@@ -1,6 +1,6 @@
 # TAG-KG: Auditable Rule-Evidence Reranking for Chinese Temporal-Function Diagnosis
 
-**Tingrui You** (1); **Na Zhang** (2); **Ling Xiong** (2); **Jaimei Li** (2, corresponding)  
+**Tingrui You** (1); **Na Zhang** (2); **Ling Xiong** (2); **Jimei Li** (2, corresponding)  
 
 (1) Hainan International College, Beijing Language and Culture University, China  
 
@@ -432,7 +432,7 @@ The authors used OpenAI Codex (accessed 27 September 2026; available through Ope
 
 ### Author contributions
 
-All four authors contributed to study conception, data curation, annotation, methodology, analysis, manuscript preparation or revision, and approval of the final manuscript. Tingrui You led implementation and evaluation. Jaimei Li supervised the study and served as corresponding author.
+All four authors contributed to study conception, data curation, annotation, methodology, analysis, manuscript preparation or revision, and approval of the final manuscript. Tingrui You led implementation and evaluation. Jimei Li supervised the study and served as corresponding author.
 
 ### Competing interests
 

@@ -44,4 +44,4 @@ See `CITATION.cff` and the paper files in `paper/`. The stable repository URL is
 
 ## Contact
 
-Corresponding author: Jaimei Li, Ljm@blcu.edu.cn.
+Corresponding author: Jimei Li, Ljm@blcu.edu.cn.

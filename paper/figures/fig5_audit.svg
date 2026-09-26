@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1450" height="760" viewBox="0 0 1450 760">
+<svg xmlns="http://www.w3.org/2000/svg" width="1450" height="790" viewBox="0 0 1450 790">
 <rect width="100%" height="100%" fill="#FFFFFF"/>
-<rect width="1450" height="760" fill="#F7F8F7"/>
+<rect width="1450" height="790" fill="#F7F8F7"/>
 <text x="48" y="54" font-family="Arial, Helvetica, sans-serif" font-size="34px" font-weight="700" text-anchor="start" fill="#172033">Evidence audit and release integrity</text>
 <text x="48" y="84" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="400" text-anchor="start" fill="#4B5563">The graph is a traceability representation, not an unmeasured predictive gain.</text>
-<rect x="45" y="120" width="660" height="275" rx="10" fill="#FBFCFC" stroke="#CBD5E1" stroke-width="2"/>
+<rect x="45" y="120" width="660" height="300" rx="10" fill="#FBFCFC" stroke="#CBD5E1" stroke-width="2"/>
 <text x="63" y="148" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="start" fill="#0F4C81">A</text>
 <text x="95" y="148" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="start" fill="#172033">Graph node composition</text>
 <text x="80" y="197" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="400" text-anchor="start" fill="#374151">Annotation</text>
@@ -24,8 +24,11 @@
 <text x="80" y="357" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="400" text-anchor="start" fill="#374151">Cue</text>
 <rect x="215" y="340" width="8.263333333333334" height="20" rx="3" fill="#D97706" stroke="#D97706" stroke-width="0"/>
 <text x="625" y="357" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="700" text-anchor="end" fill="#374151">37</text>
-<text x="375" y="372" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="700" text-anchor="middle" fill="#1F4E79">3,100 nodes</text>
-<rect x="745" y="120" width="660" height="275" rx="10" fill="#FBFCFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="80" y="389" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="400" text-anchor="start" fill="#374151">Other (6 types)</text>
+<rect x="215" y="372" width="9.156666666666666" height="20" rx="3" fill="#94A3B8" stroke="#94A3B8" stroke-width="0"/>
+<text x="625" y="389" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="700" text-anchor="end" fill="#374151">41</text>
+<text x="375" y="412" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="700" text-anchor="middle" fill="#1F4E79">3,100 nodes</text>
+<rect x="745" y="120" width="660" height="300" rx="10" fill="#FBFCFC" stroke="#CBD5E1" stroke-width="2"/>
 <text x="763" y="148" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="start" fill="#0F4C81">B</text>
 <text x="795" y="148" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="start" fill="#172033">Leading typed edge families</text>
 <text x="780" y="197" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="400" text-anchor="start" fill="#374151">TRIGGERS_CUE</text>
@@ -46,41 +49,41 @@
 <text x="780" y="357" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="400" text-anchor="start" fill="#374151">HAS_CONSENSUS</text>
 <rect x="950" y="340" width="81.27122755943716" height="20" rx="3" fill="#2F9E67" stroke="#2F9E67" stroke-width="0"/>
 <text x="1355" y="357" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="700" text-anchor="end" fill="#374151">500</text>
-<text x="1075" y="372" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="700" text-anchor="middle" fill="#2F6F64">11,110 edges</text>
-<rect x="45" y="430" width="660" height="275" rx="10" fill="#FBFCFC" stroke="#CBD5E1" stroke-width="2"/>
-<text x="63" y="458" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="start" fill="#0F4C81">C</text>
-<text x="95" y="458" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="start" fill="#172033">Risk checkpoints</text>
-<text x="90" y="511" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="700" text-anchor="start" fill="#374151">100%</text>
-<rect x="180" y="495" width="375.0" height="22" rx="3" fill="#2563EB" stroke="#2563EB" stroke-width="0"/>
-<text x="685" y="512" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="end" fill="#1D4ED8">risk 0.156</text>
-<text x="90" y="553" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="700" text-anchor="start" fill="#374151">90%</text>
-<rect x="180" y="537" width="168.2692307692308" height="22" rx="3" fill="#2563EB" stroke="#2563EB" stroke-width="0"/>
-<text x="685" y="554" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="end" fill="#1D4ED8">risk 0.070</text>
-<text x="90" y="595" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="700" text-anchor="start" fill="#374151">80%</text>
-<rect x="180" y="579" width="127.40384615384616" height="22" rx="3" fill="#2563EB" stroke="#2563EB" stroke-width="0"/>
-<text x="685" y="596" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="end" fill="#1D4ED8">risk 0.053</text>
-<text x="90" y="637" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="700" text-anchor="start" fill="#374151">70%</text>
-<rect x="180" y="621" width="72.11538461538461" height="22" rx="3" fill="#2563EB" stroke="#2563EB" stroke-width="0"/>
-<text x="685" y="638" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="end" fill="#1D4ED8">risk 0.030</text>
-<rect x="745" y="430" width="660" height="275" rx="10" fill="#FBFCFC" stroke="#CBD5E1" stroke-width="2"/>
-<text x="763" y="458" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="start" fill="#0F4C81">D</text>
-<text x="795" y="458" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="start" fill="#172033">Release checks</text>
-<rect x="790" y="495" width="270" height="34" rx="4" fill="#E4F4EA" stroke="#78B88B" stroke-width="2"/>
-<text x="807" y="518" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="700" text-anchor="start" fill="#2F6F3E">PASS</text>
-<text x="868" y="518" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="400" text-anchor="start" fill="#374151">no dangling edges</text>
-<rect x="1090" y="495" width="270" height="34" rx="4" fill="#E4F4EA" stroke="#78B88B" stroke-width="2"/>
-<text x="1107" y="518" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="700" text-anchor="start" fill="#2F6F3E">PASS</text>
-<text x="1168" y="518" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="400" text-anchor="start" fill="#374151">candidate -&gt; sentence</text>
-<rect x="790" y="547" width="270" height="34" rx="4" fill="#E4F4EA" stroke="#78B88B" stroke-width="2"/>
-<text x="807" y="570" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="700" text-anchor="start" fill="#2F6F3E">PASS</text>
-<text x="868" y="570" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="400" text-anchor="start" fill="#374151">candidate -&gt; consensus</text>
-<rect x="1090" y="547" width="270" height="34" rx="4" fill="#E4F4EA" stroke="#78B88B" stroke-width="2"/>
-<text x="1107" y="570" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="700" text-anchor="start" fill="#2F6F3E">PASS</text>
-<text x="1168" y="570" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="400" text-anchor="start" fill="#374151">cleaning status</text>
-<rect x="790" y="599" width="270" height="34" rx="4" fill="#E4F4EA" stroke="#78B88B" stroke-width="2"/>
-<text x="807" y="622" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="700" text-anchor="start" fill="#2F6F3E">PASS</text>
-<text x="868" y="622" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="400" text-anchor="start" fill="#374151">three annotators</text>
-<rect x="1090" y="599" width="270" height="34" rx="4" fill="#E4F4EA" stroke="#78B88B" stroke-width="2"/>
-<text x="1107" y="622" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="700" text-anchor="start" fill="#2F6F3E">PASS</text>
-<text x="1168" y="622" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="400" text-anchor="start" fill="#374151">cue link</text>
+<text x="1075" y="412" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="700" text-anchor="middle" fill="#2F6F64">11,110 edges</text>
+<rect x="45" y="445" width="660" height="300" rx="10" fill="#FBFCFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="63" y="473" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="start" fill="#0F4C81">C</text>
+<text x="95" y="473" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="start" fill="#172033">Risk checkpoints</text>
+<text x="90" y="526" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="700" text-anchor="start" fill="#374151">100%</text>
+<rect x="180" y="510" width="375.0" height="22" rx="3" fill="#2563EB" stroke="#2563EB" stroke-width="0"/>
+<text x="685" y="527" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="end" fill="#1D4ED8">risk 0.156</text>
+<text x="90" y="568" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="700" text-anchor="start" fill="#374151">90%</text>
+<rect x="180" y="552" width="168.2692307692308" height="22" rx="3" fill="#2563EB" stroke="#2563EB" stroke-width="0"/>
+<text x="685" y="569" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="end" fill="#1D4ED8">risk 0.070</text>
+<text x="90" y="610" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="700" text-anchor="start" fill="#374151">80%</text>
+<rect x="180" y="594" width="127.40384615384616" height="22" rx="3" fill="#2563EB" stroke="#2563EB" stroke-width="0"/>
+<text x="685" y="611" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="end" fill="#1D4ED8">risk 0.053</text>
+<text x="90" y="652" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="700" text-anchor="start" fill="#374151">70%</text>
+<rect x="180" y="636" width="72.11538461538461" height="22" rx="3" fill="#2563EB" stroke="#2563EB" stroke-width="0"/>
+<text x="685" y="653" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="end" fill="#1D4ED8">risk 0.030</text>
+<rect x="745" y="445" width="660" height="300" rx="10" fill="#FBFCFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="763" y="473" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="start" fill="#0F4C81">D</text>
+<text x="795" y="473" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="start" fill="#172033">Release checks</text>
+<rect x="790" y="510" width="270" height="34" rx="4" fill="#E4F4EA" stroke="#78B88B" stroke-width="2"/>
+<text x="807" y="533" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="700" text-anchor="start" fill="#2F6F3E">PASS</text>
+<text x="868" y="533" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="400" text-anchor="start" fill="#374151">no dangling edges</text>
+<rect x="1090" y="510" width="270" height="34" rx="4" fill="#E4F4EA" stroke="#78B88B" stroke-width="2"/>
+<text x="1107" y="533" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="700" text-anchor="start" fill="#2F6F3E">PASS</text>
+<text x="1168" y="533" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="400" text-anchor="start" fill="#374151">candidate -&gt; sentence</text>
+<rect x="790" y="562" width="270" height="34" rx="4" fill="#E4F4EA" stroke="#78B88B" stroke-width="2"/>
+<text x="807" y="585" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="700" text-anchor="start" fill="#2F6F3E">PASS</text>
+<text x="868" y="585" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="400" text-anchor="start" fill="#374151">candidate -&gt; consensus</text>
+<rect x="1090" y="562" width="270" height="34" rx="4" fill="#E4F4EA" stroke="#78B88B" stroke-width="2"/>
+<text x="1107" y="585" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="700" text-anchor="start" fill="#2F6F3E">PASS</text>
+<text x="1168" y="585" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="400" text-anchor="start" fill="#374151">cleaning status</text>
+<rect x="790" y="614" width="270" height="34" rx="4" fill="#E4F4EA" stroke="#78B88B" stroke-width="2"/>
+<text x="807" y="637" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="700" text-anchor="start" fill="#2F6F3E">PASS</text>
+<text x="868" y="637" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="400" text-anchor="start" fill="#374151">three annotators</text>
+<rect x="1090" y="614" width="270" height="34" rx="4" fill="#E4F4EA" stroke="#78B88B" stroke-width="2"/>
+<text x="1107" y="637" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="700" text-anchor="start" fill="#2F6F3E">PASS</text>
+<text x="1168" y="637" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="400" text-anchor="start" fill="#374151">cue link</text>
 </svg>
