@@ -24,7 +24,7 @@ The release supports inspection of the journal extension submitted to *Natural L
 - `supplement/TAG_KG_NLP_submission_package.zip`: synchronized submission package.
 - `RELEASE_NOTE.md`: scope, de-identification, provenance, and release-boundary record.
 
-The current public archive is `TAG_KG_Authority500_public_release_v1.2.1.zip`.
+The current public archive in the repository is `TAG_KG_Authority500_public_release_v1.2.0.zip`; the refreshed local archive is `TAG_KG_Authority500_public_release_v1.2.1.zip`.
 
 ## Quick inspection
 
