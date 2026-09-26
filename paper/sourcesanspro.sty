@@ -1,0 +1,6 @@
+\ProvidesPackage{sourcesanspro}[2026/09/27 local Source Sans Pro fallback for XeLaTeX]
+% The official class requests this package for its sans-serif headings.  The
+% minimal TeX runtime used for the reproducibility build does not ship the
+% font package, so use the metrically compatible Helvetica family.
+\RequirePackage[scaled=0.95]{helvet}
+\renewcommand{\sfdefault}{phv}

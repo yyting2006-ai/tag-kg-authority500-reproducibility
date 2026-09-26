@@ -1,6 +1,12 @@
 # Release note
 
-Version 1.0.0 publishes the rights-cleared Authority500-Full sentence records, a de-identified adjudication table, the verified candidate-centric graph export, and fixed/repeated evaluation artifacts for the TAG-KG journal extension.
+Version 1.2.0 publishes the rights-cleared Authority500-Full sentence records, a de-identified adjudication table, the verified candidate-centric graph export, fixed/repeated evaluation artifacts, and the synchronized Cambridge NLP journal source package for the TAG-KG journal extension.
+
+The `paper/` directory now carries the official Cambridge `CUP-JNL-NLP.cls`
+source, local TeX support files required by the bundled XeLaTeX runtime, and
+PDF copies of all five composite figures. The 24-page PDF was compiled with
+the official class and checked against the Markdown, HTML, LaTeX, and evidence
+ledger representations.
 
 The release covers 468 sentence groups and 500 candidate records. It retains stable sentence and candidate identifiers, character offsets, labels, consensus/status fields, quality tiers, and source provenance. The CSV and XLSX files are convenience views of the adjudicated JSONL records.
 

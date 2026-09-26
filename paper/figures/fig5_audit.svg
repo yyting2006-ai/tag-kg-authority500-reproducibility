@@ -52,16 +52,16 @@
 <text x="95" y="458" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="start" fill="#172033">Risk checkpoints</text>
 <text x="90" y="511" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="700" text-anchor="start" fill="#374151">100%</text>
 <rect x="180" y="495" width="375.0" height="22" rx="3" fill="#2563EB" stroke="#2563EB" stroke-width="0"/>
-<text x="625" y="512" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="end" fill="#1D4ED8">risk 0.156</text>
+<text x="685" y="512" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="end" fill="#1D4ED8">risk 0.156</text>
 <text x="90" y="553" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="700" text-anchor="start" fill="#374151">90%</text>
 <rect x="180" y="537" width="168.2692307692308" height="22" rx="3" fill="#2563EB" stroke="#2563EB" stroke-width="0"/>
-<text x="625" y="554" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="end" fill="#1D4ED8">risk 0.070</text>
+<text x="685" y="554" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="end" fill="#1D4ED8">risk 0.070</text>
 <text x="90" y="595" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="700" text-anchor="start" fill="#374151">80%</text>
 <rect x="180" y="579" width="127.40384615384616" height="22" rx="3" fill="#2563EB" stroke="#2563EB" stroke-width="0"/>
-<text x="625" y="596" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="end" fill="#1D4ED8">risk 0.053</text>
+<text x="685" y="596" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="end" fill="#1D4ED8">risk 0.053</text>
 <text x="90" y="637" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="700" text-anchor="start" fill="#374151">70%</text>
 <rect x="180" y="621" width="72.11538461538461" height="22" rx="3" fill="#2563EB" stroke="#2563EB" stroke-width="0"/>
-<text x="625" y="638" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="end" fill="#1D4ED8">risk 0.030</text>
+<text x="685" y="638" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="end" fill="#1D4ED8">risk 0.030</text>
 <rect x="745" y="430" width="660" height="275" rx="10" fill="#FBFCFC" stroke="#CBD5E1" stroke-width="2"/>
 <text x="763" y="458" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="start" fill="#0F4C81">D</text>
 <text x="795" y="458" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="700" text-anchor="start" fill="#172033">Release checks</text>
