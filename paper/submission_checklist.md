@@ -28,7 +28,7 @@ Prepared against the current Cambridge author-information pages read on 2026-09-
 ## Artifact checks
 
 - [x] `manuscript.md` is the editable canonical article text.
-- [x] `main.tex` is generated from the same Markdown source.
+- [x] `main.tex` is generated from the same Markdown source and is explicitly marked as a checked draft, not the official `CUP-JNL-NLP.cls` source.
 - [x] `manuscript.html` is generated from the same Markdown source.
 - [x] `TAG_KG_journal_extension.pdf` was rendered from `manuscript.html` and visually inspected at representative pages.
 - [x] PDF text extraction confirms `.844`, `.701`, `.030`, Table 5, Table 10, and 23 pages.
@@ -43,3 +43,4 @@ Prepared against the current Cambridge author-information pages read on 2026-09-
 - [x] Confirm that the rights-cleared Authority500 source records and de-identified adjudication table may be released; annotator identities and private working files are excluded.
 - [x] Keep the CAIT withdrawal email and withdrawal note available in case the editor requests documentary confirmation.
 - [ ] Upload the final PDF and any required source files through the journal system after the administrative readback.
+- [ ] After acceptance (or if the editor requests source files), migrate `main.tex` into Cambridge's `CUP-JNL-NLP.cls` package and recompile with the official class.
